@@ -1,12 +1,93 @@
-# React + Vite
+# 🧑‍💻 Puneet’s Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This project is a React-based portfolio website built with **Vite** — a fast frontend tooling setup — designed to showcase my skills, projects, and contact details.
 
-Currently, two official plugins are available:
+This repository provides the foundational structure and UI for a portfolio website. You can customize it with your own content (about section, projects, resume links, etc.) and deploy it via GitHub Pages, Vercel, Netlify, or any static hosting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💡 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🚀 Built with **React** and **Vite** for ultra-fast performance
+- 🎨 Clean, responsive layout ready for customization
+- 📁 Easily extendable single-page layout
+- 📲 Can be deployed to GitHub Pages or other hosts
+
+---
+
+## 🧱 Project Structure
+
+```
+puneet-portfolio/
+├── public/                 # Static assets
+├── src/                    # React source code
+├── index.html              # Main HTML file
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🛠️ Technologies
+
+| Layer      | Technology                            |
+| ---------- | ------------------------------------- |
+| Frontend   | React                                 |
+| Tooling    | Vite                                  |
+| Styling    | (Add your CSS framework here if used) |
+| Deployment | GitHub Pages / Vercel / Netlify       |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/puneett2507/puneet-portfolio.git
+```
+
+### 2. Install dependencies
+
+```bash
+cd puneet-portfolio
+npm install
+```
+
+### 3. Run locally
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser to view the portfolio locally.
+
+---
+
+## 📦 Deployment
+
+You can deploy this portfolio as a static site using:
+
+✔️ GitHub Pages
+✔️ Vercel
+✔️ Netlify
+
+Just connect your GitHub repo and follow your host’s deploy process.
+
+---
+
+## ✨ Customization
+
+To make this your own, update:
+
+🔹 **About me / introduction**
+🔹 **Skills and technologies**
+🔹 **Projects section with live links & screenshots**
+🔹 **Contact info & social links**
+
+---
+
+## 📄 License
+
+This project is open-source and available for personal use and customization.
