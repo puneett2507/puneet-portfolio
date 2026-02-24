@@ -13,15 +13,9 @@ import {
 	nodejs,
 	mongodb,
 	git,
-	figma,
 	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	gobuy,
+	portfolio,
 	threejs,
 	fexle,
 	apex,
@@ -117,45 +111,6 @@ const technologies = [
 ];
 
 const experiences = [
-	// {
-	//   title: "React.js Developer",
-	//   company_name: "Fexle Services",
-	//   icon: starbucks,
-	//   iconBg: "#383E56",
-	//   date: "March 2020 - April 2021",
-	//   points: [
-	//     "Developing and maintaining web applications using React.js and other related technologies.",
-	//     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-	//     "Implementing responsive design and ensuring cross-browser compatibility.",
-	//     "Participating in code reviews and providing constructive feedback to other developers.",
-	//   ],
-	// },
-	// {
-	//   title: "React Native Developer",
-	//   company_name: "Fexle Services",
-	//   icon: tesla,
-	//   iconBg: "#E6DEDD",
-	//   date: "Jan 2021 - Feb 2022",
-	//   points: [
-	//     "Developing and maintaining web applications using React.js and other related technologies.",
-	//     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-	//     "Implementing responsive design and ensuring cross-browser compatibility.",
-	//     "Participating in code reviews and providing constructive feedback to other developers.",
-	//   ],
-	// },
-	// {
-	//   title: "Web Developer",
-	//   company_name: "Shopify",
-	//   icon: shopify,
-	//   iconBg: "#383E56",
-	//   date: "Jan 2022 - Jan 2023",
-	//   points: [
-	//     "Developing and maintaining web applications using React.js and other related technologies.",
-	//     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-	//     "Implementing responsive design and ensuring cross-browser compatibility.",
-	//     "Participating in code reviews and providing constructive feedback to other developers.",
-	//   ],
-	// },
 	{
 		title: "Full stack Developer",
 		company_name: "Fexle Services",
@@ -200,9 +155,9 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "GoBuy",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"GoBuy is a full-stack e-commerce application built with React and Node/Express. It features product browsing, cart management, and a modular architecture, showcasing practical full-stack development skills.",
 		tags: [
 			{
 				name: "react",
@@ -216,32 +171,40 @@ const projects = [
 				name: "tailwind",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "node",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "express",
+				color: "green-text-gradient",
+			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: gobuy,
+		source_code_link: "https://github.com/puneett2507/gobuy-react",
 	},
 	{
-		name: "Job IT",
+		name: "Portfolio",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"My Portfolio is a React and Vite-based personal portfolio website built to showcase my projects and technical skills. It features a responsive design, clean structure, and modern frontend architecture, demonstrating practical UI development and personal branding skills.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "vite",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "ThreeJs",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: portfolio,
+		source_code_link: "https://github.com/puneett2507/puneet-portfolio",
 	},
-	{
+	/* {
 		name: "Trip Guide",
 		description:
 			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -261,7 +224,7 @@ const projects = [
 		],
 		image: tripguide,
 		source_code_link: "https://github.com/",
-	},
+	}, */
 ];
 
 export { services, technologies, experiences, testimonials, projects };
